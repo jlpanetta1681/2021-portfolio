@@ -15,9 +15,7 @@ function Main(props) {
     <section>
       <p>Here you will find all {props.adjective}!!</p>
       <ul>
-        {props.projects.map((project) => (
-          <li key={project.id}>{project}</li>
-        ))}
+        {props.projects.map((project) => (<li key={project.id}>{project.title}</li>))}
       </ul>
     </section>
   );
@@ -40,14 +38,14 @@ const projects = [
   "Space invaders",
 
 ];
-// const projObjects = projects.map((project, i) => ({ id: i, title: project }))
-
+const projectObjects = projects.map((project, i) => ({ id: i, title: project }));
+console.log(projectObjects)
 
 function App() {
   return (
     <div className="App">
       <Header name="Joe" />
-      <Main adjective="My info" projects={projects} />
+      <Main adjective="My info" projects={projectObjects} />
       <Footer year={new Date().getFullYear()} />
     </div>
   );
