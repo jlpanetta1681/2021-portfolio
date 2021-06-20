@@ -1,5 +1,7 @@
 import React from "react";
 import './App.css';
+import Home from './Home.js';
+
 
 
 function Header(props) {
@@ -44,6 +46,7 @@ console.log(projectObjects)
 function App() {
   return (
     <div className="App">
+      <Home />
       <Header name="Joe" />
       <Main adjective="My info" projects={projectObjects} />
       <Footer year={new Date().getFullYear()} />
