@@ -14,10 +14,12 @@ function Main(props) {
   return (
     <section>
       <p>Here you will find all {props.adjective}!!</p>
-      <ul style={{ textalign: "left" }}>
-        {props.projects.map((project) => <li>{project}</li>)};
+      <ul>
+        {props.projects.map((project) => (
+          <li key={project.id}>{project}</li>
+        ))}
       </ul>
-    </section >
+    </section>
   );
 }
 
@@ -32,9 +34,13 @@ function Footer(props) {
 const projects = [
   "Village Book Builders",
   "Anytime Fitness Fitness Tracker App",
-  "Human Rights First Asylum Analysis Project"
-]
+  "Human Rights First Asylum Analysis Project",
+  "Facebook Clone",
+  "Python Pong",
+  "Space invaders",
 
+];
+// const projObjects = projects.map((project, i) => ({ id: i, title: project }))
 
 
 function App() {
