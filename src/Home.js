@@ -5,7 +5,7 @@ import './Home.css';
 function Home() {
     return (
         <div className="namebar" >
-            <div id='my-name' >
+            <div>
                 <h1>Joseph Panetta</h1>
             </div>
 
