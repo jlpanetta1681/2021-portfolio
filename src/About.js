@@ -1,6 +1,11 @@
 import React from 'react'
 import './About.css';
-
+import {
+    BrowserRouter as Router,
+    Route,
+    Link,
+    Switch
+} from 'react-router-dom';
 
 
 function About() {
@@ -9,9 +14,6 @@ function About() {
 
         </div>
     )
-} impo
-
-
-rt './About.css';
+}
 
 export default About
