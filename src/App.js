@@ -7,9 +7,9 @@ import {
 } from 'react-router-dom';
 import './App.css';
 import Home from './Home';
-
-
-
+import About from "./About";
+import Contact from "./Contact";
+import Projects from "./Projects";
 
 function Header(props) {
   return (
@@ -66,6 +66,13 @@ function App() {
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
+        <Switch>
+          <Route exact path='/' component={Home}></Route>
+          <Route exact path='/about' component={About}></Route>
+          <Route exact path='/contact' component={Contact}></Route>
+        </Switch>
+
+
         <Footer year={new Date().getFullYear()} />
       </div>
     </Router>
