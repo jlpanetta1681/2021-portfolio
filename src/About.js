@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './About.css';
 
-
+const apiURL = "https://api.fungenerators.com/"
 
 function About() {
+    const [funFact, setFunFact] = useState({})
+
+    useEffect(() => {
+        getFunFactWithFetch();
+    }, []);
+    const getFunFactWithFetch = async () => { };
+
     return (
         <div>
             <p>This will be where you can get to know me a little and learn some fun facts.</p>

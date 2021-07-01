@@ -5,8 +5,9 @@
 	align-items: center;
 }
 
-ul {
+.page-links {
 	display: flex;
+	flex-direction: column;
 	list-style: none;
 	justify-content: space-around;
 }
