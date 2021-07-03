@@ -6,17 +6,14 @@
 }
 
 .page-links {
+	width: 90%;
+	text-decoration: none;
 	display: flex;
-	flex-direction: column;
 	list-style: none;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 li {
-	margin: auto;
-	padding: none;
-}
-#links {
 	display: flex;
 	justify-content: space-between;
 }
