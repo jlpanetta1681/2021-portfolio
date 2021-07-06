@@ -1,18 +1,47 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  Switch
-} from 'react-router-dom';
-import './App.css';
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import "./App.css";
 import Home from './Home';
-import About from "./About";
-import Contact from "./Contact";
-import Projects from "./Projects";
+import About from './About';
+import Contact from './Contact';
+import Projects from './Projects'
 
 
+// class App extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       title: "Joe Panetta",
+//       headerLinks: [
+//         { title: "Home", path: "/" },
+//         { title: "About", path: "/about" },
+//         { title: "Contact", path: "/contact" },
+//         { title: "Projects", path: "/projects" },
+//       ],
+//       home: {
+//         title: "The cutting edge of software design",
+//         subTitle: "Changing the world one application at a time!",
+//         text: "Check out my projects by clicking an image",
+//       },
 
+//       about: {
+//         title: "About Me",
+//       },
+
+//       contact: {
+//         title: "Need to chat or have a question?",
+//       },
+
+//       projects: {
+//         title: "Some of my best work",
+//       },
+//     };
+//   }
+
+//   render() {
+//     return <App />;
+//   }
+// }
 
 
 function Footer(props) {
@@ -57,8 +86,8 @@ function App() {
           <Route exact path='/' component={Home}></Route>
           <Route exact path='/about' component={About}></Route>
           <Route exact path='/contact' component={Contact}></Route>
+          <Route exact path='/projects' component={Projects}></Route>
         </Switch>
-
 
         <Footer year={new Date().getFullYear()} />
       </div>
@@ -66,9 +95,4 @@ function App() {
   );
 }
 
-
-
-
-
 export default App;
-
