@@ -11,7 +11,7 @@ import 'lightbox2/dist/css/lightbox.min.css'
 import './style.css';
 
 //import js libraries
-import 'jquery/dist/jquery.min.js';
+
 import 'popper.js/dist/popper.min.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import './libs/easing.js';
