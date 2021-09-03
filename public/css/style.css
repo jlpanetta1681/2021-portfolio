@@ -616,6 +616,11 @@ INTRO
   opacity: .9;
 }
 
+.intro-title_mb-4 {
+  max-width: 50%;
+  margin-top: auto;
+}
+
 .intro .intro-title {
   color: #fff;
   font-weight: 600;
