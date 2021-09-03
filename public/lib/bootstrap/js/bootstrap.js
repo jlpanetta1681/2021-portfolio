@@ -4,8 +4,8 @@
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
 (function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jquery'), require('popper.js')) :
-  typeof define === 'function' && define.amd ? define(['exports', 'jquery', 'popper.js'], factory) :
+  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jquery'), require('')) :
+  typeof define === 'function' && define.amd ? define(['exports', 'jquery', ''], factory) :
   (factory((global.bootstrap = {}),global.jQuery,global.Popper));
 }(this, (function (exports,$,Popper) { 'use strict';
 
@@ -1541,16 +1541,16 @@
 
         if (showEvent.isDefaultPrevented()) {
           return;
-        } // Disable totally Popper.js for Dropdown in Navbar
+        } // Disable totally  for Dropdown in Navbar
 
 
         if (!this._inNavbar) {
           /**
            * Check for Popper dependency
-           * Popper - https://popper.js.org
+           * Popper - https://.org
            */
           if (typeof Popper === 'undefined') {
-            throw new TypeError('Bootstrap dropdown require Popper.js (https://popper.js.org)');
+            throw new TypeError('Bootstrap dropdown require  (https://.org)');
           }
 
           var referenceElement = this._element;
@@ -1691,7 +1691,7 @@
             preventOverflow: {
               boundariesElement: this._config.boundary
             }
-          } // Disable Popper.js if we have a static display
+          } // Disable  if we have a static display
 
         };
 
@@ -2569,10 +2569,10 @@
       function Tooltip(element, config) {
         /**
          * Check for Popper dependency
-         * Popper - https://popper.js.org
+         * Popper - https://.org
          */
         if (typeof Popper === 'undefined') {
-          throw new TypeError('Bootstrap tooltips require Popper.js (https://popper.js.org)');
+          throw new TypeError('Bootstrap tooltips require  (https://.org)');
         } // private
 
 
