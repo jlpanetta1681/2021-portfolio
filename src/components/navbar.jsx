@@ -3,6 +3,8 @@ import $ from "jquery";
 
 import img from "../img/prof-pic.jpg";
 import logo2 from "../img/logo2.jpg";
+import { bootstrap } from 'bootstrap/dist/js/bootstrap.bundle.js';
+
 
 class Navbar extends React.Component {
   constructor() {
@@ -22,10 +24,11 @@ class Navbar extends React.Component {
       }
     });
 
-    $("body").scrollspy({
-      target: "#mainNav",
-      offset: navHeight
-    });
+   
+    // let scrollSpy = new bootstrap.ScrollSpy(document.body, {
+    //   target: '#mainNav',
+    //   offset:navHeight
+    // });
 
     $(".js-scroll").on("click", function() {
       $(".navbar-collapse").collapse("hide");
