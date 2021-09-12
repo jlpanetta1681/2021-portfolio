@@ -25,9 +25,9 @@ class Navbar extends React.Component {
     });
 
    
-    // let scrollSpy = new bootstrap.ScrollSpy(document.body, {
+    // var scrollSpy = new bootstrap.ScrollSpy(document.body, {
     //   target: '#mainNav',
-    //   offset:navHeight
+    //   offset: navHeight
     // });
 
     $(".js-scroll").on("click", function() {
