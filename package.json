@@ -58,12 +58,15 @@
       "last 1 safari version"
     ]
   },
+
+
   "devDependencies": {
     "python": "0.0.4"
-  }
+  },
 
-  {
-    "resolutions": {
-      "styled-components": "^5"
-    }
+
+  "resolutions": {
+    "styled-components": "^5"
+  }
+}
   
