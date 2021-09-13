@@ -1,12 +1,12 @@
 import React from "react";
 
 //import stock
-import stock from "../img/image1.jpg";
-import stock1 from "../img/image2.jpg";
-import stock2 from "../img/image3.jpg";
-import stock3 from "../img/image4.jpg";
-import stock4 from "../img/image5.jpg";
-import stock5 from "../img/image6.jpg";
+import stock from "../img/Screenshot (133) - Copy.png";
+import stock1 from "../img/Screenshot (147) - Copy.png";
+import stock2 from "../img/Screenshot (160).png";
+import stock3 from "../img/Screenshot (163).png";
+import stock4 from "../img/Screenshot (183).png";
+import stock5 from "../img/Screenshot (185).png";
 
 class Portfolio extends React.Component {
   render() {
@@ -18,8 +18,7 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Portfolio</h3>
                 <p className="subtitle-a">
-                  Incididunt nostrud id aute culpa excepteur pariatur consequat
-                  elit culpa nulla enim anim incididunt.
+                 Her you can see some my most recent projects.
                 </p>
                 <div className="line-mf"></div>
               </div>
