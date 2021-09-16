@@ -24,7 +24,7 @@ class Portfolio extends React.Component {
               </div>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div className="col-md-4">
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-vmarine">
@@ -85,8 +85,8 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
               </div>
-            </div>
-            <div className="col-md-4">
+            </div> */}
+            {/* <div className="col-md-4">
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-aguadeluz">
                   <div className="work-img">
@@ -162,7 +162,7 @@ class Portfolio extends React.Component {
                           <span className="w-ctegory">
                             HTML5 CSS3 Bootstrap Webpack ReactJS
                           </span>
-                          {/*} / <span className="w-date">18 Sep. 2018</span>*/}
+                            <span className="w-date">18 Sep. 2018</span>
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -270,8 +270,8 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
               </div>
-            </div>
-            <div className="col-md-4">
+            </div> */}
+            {/* <div className="col-md-4">
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-smth">
                   <div className="work-img">
@@ -329,7 +329,7 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
               </div>
-            </div>
+            </div> */}
             <div className="col-md-4">
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-mf">
@@ -392,8 +392,7 @@ class Portfolio extends React.Component {
               </div>
             </div>
           </div>
-        </div>
-      </section>
+          </section>
     );
   }
 }
