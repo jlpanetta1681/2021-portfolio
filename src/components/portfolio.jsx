@@ -48,7 +48,9 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
-                </a>
+                </a>*/
+                <div>
+
                 <a
                   href={stock1}
                   data-lightbox="gallery-vmarine"
@@ -85,7 +87,8 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
               </div>
-            </div> */}
+              /*</div>
+            </div> 
             {/* <div className="col-md-4">
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-aguadeluz">

@@ -28,7 +28,7 @@ class Navbar extends React.Component {
     // var scrollSpy = new bootstrap.ScrollSpy(document.body, {
     //   target: '#mainNav',
     //   offset: navHeight
-    // });
+    // }); 
 
     $(".js-scroll").on("click", function() {
       $(".navbar-collapse").collapse("hide");
