@@ -708,6 +708,7 @@ PORTFOLIO
 
 .work-box {
   text-align: center;
+  padding-left: 25%;
   margin: auto;
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
