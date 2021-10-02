@@ -703,7 +703,8 @@ PORTFOLIO
 */
 
 .col-md-4{
-  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .work-box {
